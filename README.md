@@ -11,4 +11,6 @@ $python
 >>>import factorial
 >>>x = factorial.get_factorial(5)
 >>>x
-120```
+120
+
+```
