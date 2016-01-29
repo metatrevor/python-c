@@ -1,5 +1,5 @@
 # python-c
-Simplest module and boilerplate for writing python c extensions
+Boilerplate for writing python c extensions
 
 ### Building
 python setup.py build_ext --inplace
