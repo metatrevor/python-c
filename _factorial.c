@@ -33,7 +33,7 @@ static PyObject *factorial_factorial(PyObject *self, PyObject *args)
     if (!PyArg_ParseTuple(args, "i", &n))
         return NULL;
 
-    /* Call the external C function to compute the chi-squared. */
+    /* Call the external C function to compute the factorial. */
     int value = get_factorial(n);
 
 
