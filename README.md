@@ -5,8 +5,10 @@ Simplest module and boilerplate for writing python c extensions
 python setup.py build_ext --inplace
 
 ### Importing the function
-python
->>> import factorial
->>> x = factorial.get_factorial(5)
->>> x
-120
+
+```
+$python
+>>>import factorial
+>>>x = factorial.get_factorial(5)
+>>>x
+120```
